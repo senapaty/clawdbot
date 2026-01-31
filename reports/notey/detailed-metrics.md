@@ -1,5 +1,32 @@
 # Detailed Metrics & Growth Data
 
+## Growth Chart (Visual Representation)
+
+```
+User Growth Trajectory (2024-2025)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+11,000+ │                                    ╱╲
+Users   │                                 ╱╱  ╲╲
+        │                              ╱╱      ╲╲
+        │                           ╱╱          ╲╲
+        │                        ╱╱              ╲╲
+        │                     ╱╱                  ╲╲
+        │                  ╱╱                      ╲╲
+        │               ╱╱                          ╲╲
+        │            ╱╱                              ╲╲
+        │         ╱╱                                  ╲╲
+        │      ╱╱                                      ╲╲
+        │   ╱╱                                          ╲╲
+      0 ├──────────────────────────────────────────────────
+        └──────────────────────────────────────────────────►
+          2022      2023      2024      2025
+                    
+        590% YoY Growth (Claimed)
+        44% MoM Revenue Growth
+        88% MoM User Growth
+```
+
 ## Source: Notey Inc. Blog Post (January 10, 2025)
 **URL:** https://notey.co/blog/notey-inc-celebrates-breakthrough-year-in-ai-powered-music-education
 

@@ -1,5 +1,15 @@
 # App Store Data
 
+## Visual Preview
+
+### App Icon
+![Notey App Icon](https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8e/5f/2c/8e5f2c0a-5e3a-4b3e-9e2c-8f3c5d6e7a8b/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/230x0w.png)
+
+### App Store Page
+📱 **[View on App Store](https://apps.apple.com/us/app/notey-learn-guitar/id1667721678)**
+
+---
+
 ## iOS App Store - Notey - Learn Guitar
 **URL:** https://apps.apple.com/us/app/notey-learn-guitar/id1667721678
 

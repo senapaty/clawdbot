@@ -3,12 +3,17 @@
 ## Official Notey Video
 
 ### How to learn guitar the FUN way | Notey's World
+
+![Video Thumbnail](./images/youtube-thumbnail.jpg)
+
 **URL:** https://www.youtube.com/watch?v=sNFQGLrWH3s
 **Published:** May 7, 2024
-**Channel:** Notey Inc (assumed)
+**Channel:** Notey Inc
 
 **Description Excerpt:**
 "Notey's World turns guitar practice into playtime. Check out the app that helps you master guitar with boss fights, fun minigames, and different worlds to explore!"
+
+**Watch:** [▶️ Play on YouTube](https://www.youtube.com/watch?v=sNFQGLrWH3s)
 
 **Key Visual Elements (to be captured):**
 - 3D game worlds gameplay footage

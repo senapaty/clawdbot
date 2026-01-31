@@ -1,5 +1,16 @@
 # Founder Deep Dive: Mak Grgic
 
+![Mak Grgic - CEO & Co-Founder](https://makgrgic.com/images/mak-bio.jpg)
+*Mak Grgic - Grammy-nominated guitarist, USC Professor, CEO of Notey Inc.*
+
+**Quick Links:**
+- 🌐 [Official Website](https://makgrgic.com)
+- 🎥 [YouTube Channel](https://www.youtube.com/makgrgicguitar)
+- 💼 [LinkedIn](https://www.linkedin.com/in/makgrgic/)
+- 📸 [Instagram](https://www.instagram.com/makguitar/)
+
+---
+
 ## Biography
 
 ### Professional Music Career

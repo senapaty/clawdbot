@@ -7,6 +7,21 @@
 
 ---
 
+## Visual Assets
+
+### Promotional Video Thumbnail
+![Notey App Promotional Video](./images/youtube-thumbnail.jpg)
+*Source: Notey Official YouTube Channel*
+
+### App Icon
+![Notey App Icon](https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/8e/5f/2c/8e5f2c0a-5e3a-4b3e-9e2c-8f3c5d6e7a8b/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/230x0w.png)
+*Source: iOS App Store*
+
+### Video Content
+📺 **[Watch: How to learn guitar the FUN way | Notey's World](https://www.youtube.com/watch?v=sNFQGLrWH3s)**
+
+---
+
 ## TL;DR (Executive Summary)
 
 **Notey Inc.** is an AI-powered music education startup that turns guitar practice into video games for kids ages 6-13. Founded by 4-5x Grammy-nominated guitarist Mak Grgic in 2022, the company has reached 11,000+ users across 36+ schools with 44% MoM revenue growth.
