@@ -1,5 +1,9 @@
 # Detailed Metrics & Growth Data
 
+**Source:** [Notey Inc. Blog Post - January 10, 2025](https://notey.co/blog/notey-inc-celebrates-breakthrough-year-in-ai-powered-music-education)
+
+---
+
 ## Growth Chart (Visual Representation)
 
 ```

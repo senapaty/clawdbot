@@ -24,20 +24,20 @@
 
 ## TL;DR (Executive Summary)
 
-**Notey Inc.** is an AI-powered music education startup that turns guitar practice into video games for kids ages 6-13. Founded by 4-5x Grammy-nominated guitarist Mak Grgic in 2022, the company has reached 11,000+ users across 36+ schools with 44% MoM revenue growth.
+**Notey Inc.** is an AI-powered music education startup that turns guitar practice into video games for kids ages 6-13. Founded by 4-5x Grammy-nominated guitarist Mak Grgic in 2022 [[1]](https://makgrgic.com/bio), the company has reached 11,000+ users across 36+ schools with 44% MoM revenue growth [[2]](https://notey.co/blog/notey-inc-celebrates-breakthrough-year-in-ai-powered-music-education).
 
 **The Good:**
-- Unique positioning (real instruments + gamification)
-- Strong founder credibility (Grammy nominee + professor)
-- Solid early traction (590% YoY growth)
-- Healthy unit economics ($10 CAC, $60 LTV)
-- 4 patent-pending technologies
+- Unique positioning (real instruments + gamification) *[Source: App Store description]*
+- Strong founder credibility (Grammy nominee + professor) [[3]](https://sc.edu/study/colleges_schools/music/faculty-staff/mak_grgic.php)
+- Solid early traction (590% YoY growth) [[2]](https://notey.co/blog/notey-inc-celebrates-breakthrough-year-in-ai-powered-music-education)
+- Healthy unit economics ($10 CAC, $60 LTV) *[Source: Investor email from Mak Grgic]*
+- 4 patent-pending technologies [[2]](https://notey.co/blog/notey-inc-celebrates-breakthrough-year-in-ai-powered-music-education)
 
 **The Risks:**
-- Yousician (€53M revenue) could copy features
-- Small team (2-10 employees)
-- Niche market within music education
-- Founder bandwidth concerns (concert career + teaching + startup)
+- Yousician (€53M revenue) could copy features [[4]](https://tracxn.com/d/companies/yousician/__9_js14rTh79nrKlExWy_o-y8h6uzWU-JoYbthACpUYg)
+- Small team (2-10 employees) [[5]](https://www.linkedin.com/company/notey-inc)
+- Niche market within music education *[Source: Market analysis - $4.27B online music ed market]*
+- Founder bandwidth concerns (concert career + teaching + startup) [[3]](https://sc.edu/study/colleges_schools/music/faculty-staff/mak_grgic.php)
 
 **Verdict:** Interesting opportunity with defensible differentiation through founder brand and B2B relationships, but execution risk is high given competitive landscape.
 
@@ -46,16 +46,16 @@
 ## Company Overview
 
 ### Basic Information
-| Attribute | Details |
-|-----------|---------|
-| **Company Name** | Notey Inc. |
-| **Product** | Notey's World - Learn Guitar |
-| **Founded** | 2021-2022 |
-| **HQ** | Cayce, South Carolina |
-| **Employees** | 2-10 |
-| **Industry** | Mobile Gaming / Music Education |
-| **Stage** | Seed / Series A |
-| **Funding** | Raising $1.5M ($250K remaining) |
+| Attribute | Details | Source |
+|-----------|---------|--------|
+| **Company Name** | Notey Inc. | [[5]](https://www.linkedin.com/company/notey-inc) |
+| **Product** | Notey's World - Learn Guitar | [[6]](https://apps.apple.com/us/app/notey-learn-guitar/id1667721678) |
+| **Founded** | 2021-2022 | [[5]](https://www.linkedin.com/company/notey-inc) |
+| **HQ** | Cayce, South Carolina | [[5]](https://www.linkedin.com/company/notey-inc) |
+| **Employees** | 2-10 | [[5]](https://www.linkedin.com/company/notey-inc) |
+| **Industry** | Mobile Gaming / Music Education | [[5]](https://www.linkedin.com/company/notey-inc) |
+| **Stage** | Seed / Series A | *[Source: Investor email from Mak Grgic]* |
+| **Funding** | Raising $1.5M ($250K remaining) | *[Source: Investor email from Mak Grgic]* |
 
 ### Product Description
 Notey transforms guitar practice into an adaptive, gamified mobile experience:
@@ -77,34 +77,34 @@ Notey transforms guitar practice into an adaptive, gamified mobile experience:
 ## Traction & Metrics
 
 ### User Base (as of Jan 2025)
-| Metric | Value |
-|--------|-------|
-| Consumer Users | 11,000+ |
-| Schools/Districts | 36+ |
-| App Store Rating | 4.6/5 (172 ratings) |
+| Metric | Value | Source |
+|--------|-------|--------|
+| Consumer Users | 11,000+ | [[2]](https://notey.co/blog/notey-inc-celebrates-breakthrough-year-in-ai-powered-music-education) |
+| Schools/Districts | 36+ | [[2]](https://notey.co/blog/notey-inc-celebrates-breakthrough-year-in-ai-powered-music-education) |
+| App Store Rating | 4.6/5 (172 ratings) | [[6]](https://apps.apple.com/us/app/notey-learn-guitar/id1667721678) |
 
 ### Growth Metrics
-| Metric | Value |
-|--------|-------|
-| YoY Growth | 590% |
-| MoM Revenue Growth | 44% |
-| MoM User Growth | 88% |
-| Free Trial Conversion | 63% recent, 41% avg |
-| Levels Played/Month | 15,000 avg, 50,000 peak |
+| Metric | Value | Source |
+|--------|-------|--------|
+| YoY Growth | 590% | [[2]](https://notey.co/blog/notey-inc-celebrates-breakthrough-year-in-ai-powered-music-education) |
+| MoM Revenue Growth | 44% | [[2]](https://notey.co/blog/notey-inc-celebrates-breakthrough-year-in-ai-powered-music-education) |
+| MoM User Growth | 88% | [[2]](https://notey.co/blog/notey-inc-celebrates-breakthrough-year-in-ai-powered-music-education) |
+| Free Trial Conversion | 63% recent, 41% avg | [[2]](https://notey.co/blog/notey-inc-celebrates-breakthrough-year-in-ai-powered-music-education) |
+| Levels Played/Month | 15,000 avg, 50,000 peak | [[2]](https://notey.co/blog/notey-inc-celebrates-breakthrough-year-in-ai-powered-music-education) |
 
 ### Recent Performance (Dec 2024 - Jan 2025)
-| Month | Installs | Revenue | Subscriptions |
-|-------|----------|---------|---------------|
-| Dec 2024 | +258% | +68% | +43% |
-| Jan 2025 | +18% | +237% | +127% |
+| Month | Installs | Revenue | Subscriptions | Source |
+|-------|----------|---------|---------------|--------|
+| Dec 2024 | +258% | +68% | +43% | [[2]](https://notey.co/blog/notey-inc-celebrates-breakthrough-year-in-ai-powered-music-education) |
+| Jan 2025 | +18% | +237% | +127% | [[2]](https://notey.co/blog/notey-inc-celebrates-breakthrough-year-in-ai-powered-music-education) |
 
 ### Unit Economics
-| Metric | Value | Assessment |
-|--------|-------|------------|
-| CAC | $10 | Excellent |
-| LTV | $60 | Good |
-| LTV/CAC Ratio | 6:1 | Very Healthy |
-| D180 Retention | 47% | Solid |
+| Metric | Value | Assessment | Source |
+|--------|-------|------------|--------|
+| CAC | $10 | Excellent | *[Source: Investor email from Mak Grgic]* |
+| LTV | $60 | Good | *[Source: Investor email from Mak Grgic]* |
+| LTV/CAC Ratio | 6:1 | Very Healthy | *[Calculated from CAC/LTV figures]* |
+| D180 Retention | 47% | Solid | *[Source: Investor email from Mak Grgic]* |
 
 ### Estimated Financials
 - **Estimated ARR:** $135K - $276K (based on 11K users, 41-63% conversion)
@@ -199,7 +199,7 @@ Notey transforms guitar practice into an adaptive, gamified mobile experience:
 ### Primary Competitors
 
 #### 1. Yousician (Market Leader)
-- **Revenue:** €53M annually
+- **Revenue:** €53M annually (2024) [[4]](https://tracxn.com/d/companies/yousician/__9_js14rTh79nrKlExWy_o-y8h6uzWU-JoYbthACpUYg)
 - **Users:** Millions
 - **Strengths:** Scale, brand, multi-instrument
 - **Weaknesses:** Not kid-native, less gamified
@@ -228,21 +228,21 @@ Notey transforms guitar practice into an adaptive, gamified mobile experience:
 | B2B Focus | ✅ | ⚠️ | ❌ |
 
 ### Market Size
-- **Online Music Education:** $4.27B (2025) → $14.75B (2035)
-- **Guitar Learning Segment:** ~$400-500M (estimated)
-- **Notey's Current Share:** <1% (11K users)
+- **Online Music Education:** $4.27B (2025) → $14.75B (2035) [[7]](https://www.openpr.com/news/4313452/online-music-education-market-size-growth-trends-2026-2035)
+- **Guitar Learning Segment:** ~$400-500M (estimated) *[Analyst estimate based on market reports]*
+- **Notey's Current Share:** <1% (11K users) [[2]](https://notey.co/blog/notey-inc-celebrates-breakthrough-year-in-ai-powered-music-education)
 
 ---
 
 ## Business Model
 
 ### Revenue Streams
-1. **B2C Subscriptions** (primary)
+1. **B2C Subscriptions** (primary) [[6]](https://apps.apple.com/us/app/notey-learn-guitar/id1667721678)
    - Monthly: $9.99
    - Yearly: $59.99
    - In-app currency: Beatcoin ($4.99-$14.99)
 
-2. **B2B Licensing** (growing)
+2. **B2B Licensing** (growing) [[2]](https://notey.co/blog/notey-inc-celebrates-breakthrough-year-in-ai-powered-music-education)
    - School/district licenses
    - Teacher Dashboard (recently launched)
    - 36+ schools currently
@@ -423,27 +423,67 @@ Notey transforms guitar practice into an adaptive, gamified mobile experience:
 
 ## Appendix: Research Sources
 
-### Primary Sources
-- Notey.co (official website)
-- iOS App Store listing
-- LinkedIn (company + founder)
-- USC Thornton School of Music
-- University of South Carolina
+### Primary Sources (Linked)
 
-### Secondary Sources
-- Times of India (visa-related articles)
-- Economic Times
-- Crunchbase
-- F6S (startup rankings)
-- InnoVision Awards
-- Tracxn (Yousician data)
+**[1] Mak Grgic Official Bio**  
+https://makgrgic.com/bio  
+*Founder background, Grammy nominations, career history*
 
-### Data Sources
-- Company blog posts (Jan 2025)
-- App Store metrics (public)
-- LinkedIn company updates
-- Founder personal website
-- Press releases
+**[2] Notey Inc. Company Blog - Growth Metrics**  
+https://notey.co/blog/notey-inc-celebrates-breakthrough-year-in-ai-powered-music-education  
+*11,000+ users, 36+ schools, 590% YoY growth, 44% MoM revenue growth*
+
+**[3] USC School of Music - Mak Grgic Faculty Profile**  
+https://sc.edu/study/colleges_schools/music/faculty-staff/mak_grgic.php  
+*Academic position, Grammy nominations, press quotes*
+
+**[4] Tracxn - Yousician Company Profile**  
+https://tracxn.com/d/companies/yousician/__9_js14rTh79nrKlExWy_o-y8h6uzWU-JoYbthACpUYg  
+*€53.3M annual revenue (2024), competitor data*
+
+**[5] LinkedIn - Notey Inc. Company Page**  
+https://www.linkedin.com/company/notey-inc  
+*Company size (2-10 employees), HQ location (Cayce, SC), founded 2021*
+
+**[6] Apple App Store - Notey Learn Guitar**  
+https://apps.apple.com/us/app/notey-learn-guitar/id1667721678  
+*Pricing ($59.99/year), ratings (4.6/5), screenshots, app details*
+
+**[7] OpenPR - Online Music Education Market Report**  
+https://www.openpr.com/news/4313452/online-music-education-market-size-growth-trends-2026-2035  
+*$4.27B market size (2025), $14.75B projected (2035), 13.20% CAGR*
+
+**[8] USC News - Mak Grgic Joins Faculty**  
+https://www.sc.edu/uofsc/posts/2023/01/guitarist-mak-grgic-joins-faculty.php  
+*2x Grammy nominee, 80-100 concerts/year*
+
+**[9] USC Thornton School of Music - InnoVision Award**  
+https://music.usc.edu/notey-innovision-award-2023/  
+*2023 Education and Technology award for Notey*
+
+**[10] YouTube - Notey Official Video**  
+https://www.youtube.com/watch?v=sNFQGLrWH3s  
+*Promotional video, gameplay footage*
+
+### Private/Unpublished Sources
+- **Investor email from Mak Grgic (Jan 31, 2026):** $1.5M round, $250K remaining, $10 CAC, $60 LTV, 47% D180 retention
+
+### Data Reliability Assessment
+| Source Type | Reliability | Notes |
+|-------------|-------------|-------|
+| Company blog posts | Medium-High | Self-reported metrics, but public |
+| App Store data | High | Verified platform data |
+| LinkedIn | Medium | Self-reported but professional |
+| Academic sources | High | USC verified faculty info |
+| Market research | Medium | Industry estimates vary |
+| Investor email | Medium | Self-reported, not audited |
+
+### Fact vs. Reasoning Legend
+- **[[n]]** = External verified source  
+- *[Source: Description]* = Attribution provided  
+- *[Calculated]* = Derived from other data  
+- *[Analyst estimate]* = My professional judgment  
+- *[Speculative]* = Forward-looking/inferred
 
 ---
 
