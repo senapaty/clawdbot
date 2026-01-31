@@ -11,7 +11,8 @@ import urllib.error
 # Config
 BASE_URL = os.getenv('LISTMONK_URL', 'https://monk.wowsumitra.com')
 API_KEY = os.getenv('LISTMONK_API_KEY', '')
-AUTH_HEADER = f"token clawdbot:{API_KEY}"
+USERNAME = os.getenv('LISTMONK_USERNAME', 'clawdbot')
+AUTH_HEADER = f"token {USERNAME}:{API_KEY}"
 
 def api_get(endpoint, params=None):
     """Make GET request to ListMonk API"""
