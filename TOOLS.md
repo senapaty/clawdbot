@@ -49,6 +49,19 @@
 - Namra: +91-98711-77890
 - Anisha: +91-97179-29944
 
+## Known Limitations
+
+### Image Analysis
+- **Issue:** `image` tool (openai/gpt-5-mini) returning empty responses
+- **Workaround:** Use OCR text, external URLs, or manual description
+- **When AK sends images:** Ask for text description or OCR output
+- **Status:** Being investigated
+
+### Web Search Rate Limits
+- **Brave Search:** 1 request/sec, 2000 queries/month (free tier)
+- **Symptom:** 429 errors after ~20 rapid queries
+- **Strategy:** Batch searches, space out requests by 2-3 seconds
+
 ## Security / Secrets Management
 - **NEVER commit secrets to git** — .env, API keys, passwords excluded from backup
 - **Secrets stored in**: OpenClaw config (not in repo)
