@@ -1,0 +1,30 @@
+{{- $src := .Get "src" -}}
+{{- $alt := .Get "alt" -}}
+{{- $img := .Page.Resources.GetMatch $src -}}
+
+{{- if $img -}}
+  {{- $tiny := $img.Resize "500x" -}}
+  {{- $small := $img.Resize "800x" -}}
+  {{- $medium := $img.Resize "1200x" -}}
+  {{- $large := $img.Resize "1500x" -}}
+
+  <figure class="responsive-image">
+    <img
+      srcset="
+        {{ $tiny.RelPermalink }} 500w,
+        {{ $small.RelPermalink }} 800w,
+        {{ $medium.RelPermalink }} 1200w,
+        {{ $large.RelPermalink }} 1500w"
+      sizes="(max-width: 768px) 100vw, 800px"
+      src="{{ $medium.RelPermalink }}"
+      alt="{{ $alt }}"
+      loading="lazy"
+      width="{{ $medium.Width }}"
+      height="{{ $medium.Height }}">
+    {{- if $alt -}}
+    <figcaption>{{ $alt }}</figcaption>
+    {{- end -}}
+  </figure>
+{{- else -}}
+  <p style="color: red;">Image not found: {{ $src }}</p>
+{{- end -}}

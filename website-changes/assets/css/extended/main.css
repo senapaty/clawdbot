@@ -1,0 +1,418 @@
+:root {
+    --theme: #f5f5ee;
+    --primary: rgba(0, 0, 0, 0.85);
+    --secondary: rgba(0, 0, 0, 0.6);
+    --tertiary: rgba(0, 0, 0, 0.4);
+    --content: rgba(0, 0, 0, 0.85);
+    --code-bg: rgba(0, 0, 0, 0.05);
+    --border: rgba(0, 0, 0, 0.1);
+}
+
+/* Dark mode CSS variables - overridden in custom.css */
+
+/* Light mode - ensure list pages use the same background as other pages */
+.list {
+    background-color: var(--theme) !important;
+}
+
+/* Dark mode styling - uses color palette from custom.css */
+[data-theme="dark"] body,
+[data-theme="dark"] .main,
+[data-theme="dark"] .post-content,
+[data-theme="dark"] .page-content,
+[data-theme="dark"] .profile,
+[data-theme="dark"] .list {
+    background-color: var(--theme);
+    color: var(--primary);
+}
+
+/* Dark mode header */
+[data-theme="dark"] .header,
+[data-theme="dark"] .nav {
+    background-color: #1a1a1a;
+    color: var(--primary);
+}
+
+[data-theme="dark"] .logo a,
+[data-theme="dark"] .menu a,
+[data-theme="dark"] .menu li a,
+[data-theme="dark"] .nav a,
+[data-theme="dark"] #menu a,
+[data-theme="dark"] .header a {
+    color: var(--primary);
+}
+
+/* Text elements in dark mode */
+[data-theme="dark"] h1,
+[data-theme="dark"] h2,
+[data-theme="dark"] h3,
+[data-theme="dark"] h4,
+[data-theme="dark"] h5,
+[data-theme="dark"] h6,
+[data-theme="dark"] p,
+[data-theme="dark"] li,
+[data-theme="dark"] .post-meta,
+[data-theme="dark"] .entry-content,
+[data-theme="dark"] .entry-header {
+    color: var(--primary);
+}
+
+body {
+    background-color: var(--theme);
+    color: var(--primary);
+    font-family: "Source Serif 4", "Source Serif Pro", serif;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 32.6px;
+    -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Source Serif 4", "Source Serif Pro", serif;
+    font-weight: 400;
+    font-style: italic;
+    color: var(--primary);
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+h1 {
+    font-size: 2.2em;
+}
+
+h2 {
+    font-size: 1.8em;
+}
+
+h3 {
+    font-size: 1.4em;
+}
+
+/* Profile Mode Special Styling */
+.profile_inner h1 {
+    font-size: 46px;
+    margin-bottom: 20px;
+}
+
+.profile_inner .subtitle {
+    font-size: 22px;
+    font-style: normal;
+    color: var(--secondary);
+}
+
+/* Links */
+a {
+    color: inherit;
+    text-decoration: none;
+    border-bottom: 1px solid var(--primary);
+    transition: border-color 0.2s ease;
+}
+
+a:hover {
+    border-bottom: 2px solid var(--primary);
+}
+
+/* Navigation & Labels */
+.nav a,
+.footer a,
+.post-meta a,
+.breadcrumbs a {
+    border-bottom: none;
+}
+
+.nav,
+.footer,
+.post-meta,
+.breadcrumbs,
+code,
+kbd,
+pre {
+    font-family: "JetBrains Mono", monospace;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+/* Header Edge-to-Edge */
+.header {
+    max-width: none;
+    margin: 0;
+}
+
+.nav {
+    max-width: none;
+    margin: 0;
+    padding: 0 40px;
+}
+
+/* Post Cards */
+.entry-header h2 {
+    font-style: italic;
+    font-size: 26px;
+}
+
+.entry-content {
+    font-size: 18px;
+    color: var(--secondary);
+}
+
+/* Dotted underline for specific links like Browser Company */
+.career-link {
+    border-bottom: 2px dotted var(--primary) !important;
+}
+
+/* Subtle Vignette Effect */
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    box-shadow: inset 0 0 150px rgba(0, 0, 0, 0.03);
+    z-index: 9999;
+}
+
+/* Mobile Menu Styling */
+#menu-trigger {
+    display: none;
+    /* Hidden on desktop */
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    margin-left: 10px;
+    color: var(--primary);
+}
+
+/* Desktop Menu Hover Effects */
+@media screen and (min-width: 769px) {
+    #menu li a {
+        transition: all 0.3s ease;
+        position: relative;
+        padding: 4px 8px;
+        border-radius: 4px;
+    }
+
+    #menu li a:hover {
+        transform: translateY(-2px);
+    }
+
+    /* Light mode hover */
+    #menu li a:hover {
+        background-color: rgba(0, 0, 0, 0.04);
+    }
+
+    /* Dark mode hover */
+    [data-theme="dark"] #menu li a:hover {
+        background-color: rgba(232, 169, 114, 0.1);
+        color: var(--accent-primary);
+    }
+
+    /* Active state styling */
+    #menu li a span.active {
+        font-weight: 600;
+    }
+
+    [data-theme="dark"] #menu li a span.active {
+        color: var(--accent-primary);
+    }
+}
+
+/* Sub Header Nav - Hidden by default */
+.sub-header-nav {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .sub-header-nav {
+        display: block;
+        /* Make it sticky on mobile */
+        position: -webkit-sticky; /* Safari support */
+        position: sticky;
+        top: 0;
+        /* Border bottom (existing) */
+        border-bottom: 1px solid var(--border);
+        /* Light separator between header and sub-header */
+        border-top: 1px solid rgba(0, 0, 0, 0.05);
+        background-color: var(--theme) !important;
+        padding: 10px 20px 10px 44px;
+        /* Increased vertical padding slightly */
+        overflow-x: auto;
+        z-index: 9999;
+        /* Higher z-index to ensure it stays on top when scrolling */
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+    }
+
+    /* Match header background in dark mode */
+    [data-theme="dark"] .sub-header-nav {
+        background-color: #1a1a1a !important;
+        border-bottom-color: var(--border);
+        border-top-color: rgba(232, 169, 114, 0.1);
+    }
+
+    [data-theme="dark"] .sub-header-nav a {
+        color: var(--primary);
+        opacity: 0.4;
+    }
+
+    [data-theme="dark"] .sub-header-nav a:hover {
+        color: var(--accent-primary);
+        opacity: 1;
+    }
+
+    /* Active state for dark mode */
+    [data-theme="dark"] .sub-header-nav a.active {
+        color: var(--accent-primary);
+        opacity: 1;
+        font-weight: 600;
+    }
+
+    .sub-header-nav ul {
+        display: flex;
+        justify-content: flex-start;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        gap: 16px;
+        /* Reduced gap for text labels */
+    }
+
+    .sub-header-nav a {
+        font-family: "JetBrains Mono", monospace;
+        font-size: 11px;
+        /* Small size for compact text labels */
+        line-height: 1.2;
+        text-decoration: none;
+        border-bottom: none;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        opacity: 0.5;
+        transition: all 0.2s ease;
+        display: inline-block;
+    }
+
+    .sub-header-nav a:hover {
+        opacity: 1;
+        transform: translateY(-1px);
+    }
+
+    /* Active state for light mode */
+    .sub-header-nav a.active {
+        opacity: 1;
+        font-weight: 600;
+        color: #000000;
+    }
+
+    .header {
+        position: relative;
+        z-index: 9999;
+        /* Ensure header is above main content */
+    }
+
+    .nav {
+        position: static;
+        /* Let menu escape nav stacking context if needed, or keep relative */
+        padding: 0 20px;
+    }
+
+    /* Ensure content padding excludes the header height + sub-header height if sticky...
+       But header is not sticky by default. The main padding handles spacing. */
+
+    #menu-trigger {
+        display: none !important;
+        /* Hidden everywhere - using sub-header instead */
+    }
+
+    #menu {
+        display: none !important;
+        /* Hidden on mobile - using sub-header instead */
+        flex-direction: column;
+        justify-content: flex-start;
+        position: fixed;
+        top: 60px;
+        margin-top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        height: auto;
+        min-height: calc(100vh - 60px);
+        background-color: #f5f5ee !important;
+        /* HARDCODED fallback Light Mode */
+        padding: 40px 20px;
+        z-index: 10000;
+        overflow-y: auto;
+        border-top: 1px solid var(--border);
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Dark mode override */
+    :root[data-theme="dark"] #menu {
+        background-color: #0D0D0D !important;
+        color: var(--primary) !important;
+    }
+
+    [data-theme="dark"] #menu a {
+        color: var(--primary) !important;
+    }
+
+    #menu.show {
+        display: flex !important;
+        opacity: 1;
+    }
+
+    #menu li {
+        width: 100%;
+        text-align: center;
+        margin: 5px 0;
+        /* Reduced from 15px */
+        font-size: 1.4rem;
+        display: block;
+        opacity: 1;
+        /* Ensure text is visible */
+    }
+
+    #menu li a {
+        display: block;
+        padding: 5px 10px;
+        /* Reduced vertical padding */
+    }
+
+    #menu li+li {
+        margin-inline-start: 0;
+    }
+
+    .logo-switches {
+        display: flex;
+        align-items: center;
+    }
+
+    /* Add more margin/padding to the main content on mobile */
+    .main {
+        padding: 0 30px;
+        /* Increased from default gap */
+    }
+
+    body.menu-open {
+        overflow: hidden;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
